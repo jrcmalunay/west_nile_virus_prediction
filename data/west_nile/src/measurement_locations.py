@@ -23,3 +23,6 @@ plt.imshow(mapdata,
 locations = traps[['Longitude', 'Latitude']].drop_duplicates().values
 plt.scatter(locations[:,0], locations[:,1], marker='x')
 plt.savefig('heatmap.png')
+
+HAL = 'THE BEST'
+print HAL
